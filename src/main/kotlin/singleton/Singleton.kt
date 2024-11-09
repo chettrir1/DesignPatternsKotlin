@@ -12,3 +12,11 @@ object DatabaseManager {
         println("Disconnecting from $databaseName")
     }
 }
+
+fun main(){
+    //to connect
+    DatabaseManager.connect()
+
+    //to disconnect
+    DatabaseManager.disconnect()
+}
